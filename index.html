@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio for engineer">
+    <meta name="author" content="Kipack Jeong">
+    <!-- title -->
+    <title class="entry-title">Jeong's Portfolio</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel= "icon" type="image/png" href="imgs/portfoliofavicon.png">
+    <!-- css -->
+    <link rel= "stylesheet" href="style.css">
+    <!-- javascript -->
+    <script src="main.js" defer> </script>
+</head>
+<body> 
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <!-- logo -->
+      <img 
+      src="imgs\logo white.png" alt = "icon" 
+      class ="navbar__logo__icon"
+      >
+    </div>
+    <!-- menu -->
+    <!-- menu -->
+    <div class="navbar__menu__container">
+      <ul class="navbar__menu">
+        <li class="navbar__menu__items" data-link = "#home">HOME</li>
+        <li class="navbar__menu__items" data-link = "#about">ABOUT</li>
+        <li class="navbar__menu__items" data-link = "#skills">SKILLS</li>
+        <li class="navbar__menu__items" data-link = "#work">WORK</li>
+        <li class="navbar__menu__items" data-link = "#contact">CONTACT</li>
+      </ul>
+    </div>
+    <div class="navbar__togglebtn">
+      <img src = "imgs\Menu Icon.png" alt = "menu icon" class = "navbar__togglebtn__img">
+    </div>
+  </nav>
+  <!-- Home -->
+  <section id="home">
+    <div class="home__frame" class="container">
+      <img 
+        class="home__frame__picture"
+        src="imgs\Profile pic.png" 
+        alt="Jeong's profile photo" 
+      >
+      <div class="home__frame__text">
+        <!-- letter -->
+          <div class='console-container'>
+            <span id='text'>
+            </span>
+            <div class='console-underscore' id='console'>
+              &#95;
+            </div>
+          </div>
+        <!-- contact button -->
+        <div class = "home__title__contact-me__cont">
+            <figure>
+              <a href = "tel:8475108233">
+                <div>
+                  <span style = "font-weight:700">Contact Me</span>
+                  <span>Here</span>
+                </div>
+              </a>
+            </figure>
+        </div>
+    </div>
+  </section>
+  <!-- about -->
+  <section id="about" class="container">
+    <h2 class="subtitles">ABOUT ME</h2>
+    <div class = about__introduction>
+        <img src="imgs\Uni profile.png" alt="Uniform-Profile" class="about__introduction__pic">
+      <div class="about__introduction__text">
+        <h2>A U.S Army service member, currently in Microsoft Software & Systems Academy to prepare career transition as a Software Developer. Passionate problem solver with discpline, work ethics, and motivation. Fast learner and enjoy programming with the purpose of improving the quality of our lives.</h2>
+      </div>
+    </div>
+  </section>
+  <!-- skils -->
+  <section id="skills" class="container">
+    <h2 class="subtitles">SKILLS</h2>
+    <div class="about__majors">
+      <div class="about__majors__major">
+        <div class="major__icon">
+          <img src="imgs\resume-website.png" alt="front-end icon" class="major__icon__img">
+        </div>
+        <div class="major__title"> 
+          <h2>
+            FRONT END
+          </h2>
+        </div>
+      </div>
+      <div class="about__majors__major">
+        <div class="major__icon">
+          <img src="imgs\server.png" alt="back-end icon" class="major__icon__img">
+        </div>
+        <div class="major__title"> 
+          <h2>
+            BACK END
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="skillset">
+      <h2 class="subtitles">LANGUAGES</h2>
+      <div class="skillset__cont">
+        <div class="skillset__languages__cont front">
+          <div class = "language__cont"> <img src="imgs\Languages\html.png" alt="html" class="language__img">              
+            <span>HTML</span>
+          </div>
+          <div class = "language__cont"> <img src="imgs\Languages\css.png" alt="css" class="language__img">            
+            <span>CSS</span>
+          </div>
+          <div class = "language__cont"> <img src="imgs\Languages\js.png" alt="js" class="language__img">
+            <span>JavaScript</span>
+          </div>
+        </div>
+                <div class="skillset__languages__cont front">
+          <div class = "language__cont"> <img src="imgs\Languages\mongodb.png" alt="html" class="language__img">              
+            <span>Mongo DB</span>
+          </div>
+          <div class = "language__cont"> <img src="imgs\Languages\nodejs.png" alt="css" class="language__img">            
+            <span>Node.js</span>
+          </div>
+          <div class = "language__cont"> <img src="imgs\Languages\react.png" alt="js" class="language__img">
+            <span>React</span>
+          </div>
+        </div>
+        <div class="skillset__languages__cont back">
+          <div class = "language__cont"> <img src="imgs\Languages\csharp.png" alt="html" class="language__img">
+            <span>C#</span>
+          </div>
+          <div class = "language__cont">
+             <img src="imgs\Languages\python.png" alt="Python" class="language__img python">
+             <span class="language__text" >Python</span>
+          </div>
+          <div class = "language__cont"> 
+            <img src="imgs\Languages\mysql.png" alt="js" class="language__img">
+            <span>MS SQL</span>
+          </div>
+        </div>
+      </div>
+      <!-- Tools -->
+      <h2 class="subtitles">
+        TOOLS
+      </h2>
+      <div class="skillset__cont">
+        <div class="tools">
+          <div class ="tools__list">
+            <div class = "tools__list__tool" >
+              <img src="imgs\Visual Studio.png" class = "tools__list__tool__img">
+              <span class="tool-name">
+                Visual Studio
+              </span>
+            </div>
+            <div class = "tools__list__tool"><img src= "imgs\visual-studio-code.png" class = "tools__list__tool__img">
+              <span class="tool-name">
+                Visual Studio Code
+              </span>
+            </div>
+            <div class = "tools__list__tool"><img src = "imgs\MSSM Studio.png" class = "tools__list__tool__img">
+              <span>
+                MSSM Studio
+              </span>
+            </div>
+          </div>
+          <div class ="tools__list">
+            <div class = "tools__list__tool"><img src = "imgs\postman.png" class = "tools__list__tool__img">
+              <span>
+                Postman
+              </span>
+            </div>
+            
+            <div class = "tools__list__tool"><img src = "imgs\canva.png" class = "tools__list__tool__img">
+              <span>
+                Canva
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- woFrk -->
+  <section id="work" class="container">
+    <h2 class="subtitles">MY WORK</h2>
+    <div class="work__allprojects">
+      <!-- project4 WebScrapper-->
+      <div id="project" class="Daily">
+        <a href="https://github.com/raphilo92/Webscrapper_JobSearch" class="project__link" target="blank">
+          <img src="imgs\WebScrapper.gif" class="work__project__img">
+          <div class="project__description">
+            <h3>Job Web Scrapper</h3>
+            <span>Python / Flask</span>
+          </div>
+        </a>
+      </div>
+      <!-- project3 Daily-->
+      <div id="project" class="Daily">
+        <a href="https://github.com/raphilo92/DailyWebApp" class="project__link" target="blank">
+          <img src="imgs\Daily Website.gif" class="work__project__img">
+          <div class="project__description">
+            <h3>Daily App</h3>
+            <span> C#, Blazor App</span>
+          </div>
+        </a>
+      </div>
+    
+      <!-- project2 Tetris -->
+      <div id="project" class="Tetris">
+        <a href="https://github.com/raphilo92/Tetris" class="project__link" target="blank">
+          <img src="imgs\Tetris.gif" class="work__project__img">
+          <div class="project__description">
+            <h3>Tetris</h3>
+            <span>C#, Console App</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- project1 Portfolio-->
+      <div id="project" class="project1">
+        <a href="https://github.com/raphilo92/Portfolio" class="project__link" target="blank">
+          <img src="imgs\Portfolio website.gif" class="work__project__img">
+          <div class="project__description">
+            <h3>Portfolio Website</h3>
+            <span> HTML, CSS, JavaScript</span>
+          </div>
+        </a>
+      </div>
+      
+    </div>
+
+
+
+  </section>
+  <!-- contact -->
+  <section id="contact">
+    <div class="contact">
+      <h2 class="subtitles" style="margin-bottom: 0;">
+        Let's talk
+      </h2>
+      <div class = "contact__iconList">
+        <a href= "mailto: kipack.jeong@outlook.com">
+          <img src="imgs\mail.png" class = "contact__iconList__icon"
+          >
+        </a>
+        <a href = "https://www.linkedin.com/in/kipack-jeong">
+          <img 
+          src="imgs\Linkedin.png" 
+          class = "contact__iconList__icon"
+          >
+        </a>
+        <a href="tel:8475108233"><img 
+          src="imgs\phone-square.png" 
+          class = "contact__iconList__icon"
+          ></a>
+      </div>
+
+      <h3 class="contact__right">
+        icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+        All rights reserved
+      </h3>
+    </div>
+
+    </div>
+  </section>
+</body>
+</html>
