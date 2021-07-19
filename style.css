@@ -347,7 +347,6 @@ figure span:nth-child(2) {
 }
 .skillset {
   width: 80%;
-  margin-top: 5%;
 }
 
 .skillset__cont {
@@ -412,12 +411,14 @@ figure span:nth-child(2) {
   opacity: 1;
   transition: all 600ms ease-in-out;
   width: 100%;
+  padding-bottom: 5em;
 }
 #work.work__fade {
   opacity: 0.5;
   transition: all 600ms ease-in-out;
 }
 #work h3 {
+  width: 80%;
   margin-bottom: 7vh;
   font-weight: var(--weight-bold);
   transform: scale(1.3);
@@ -435,6 +436,7 @@ figure span:nth-child(2) {
 }
 #project :hover {
   transform: scale(1.1);
+  transition: all 1000ms ease-in-out;
   border-radius: 50%;
   z-index: 2;
 }
@@ -451,7 +453,7 @@ figure span:nth-child(2) {
   justify-content: center;
   color: white;
   background: rgb(6, 6, 17);
-  margin: auto;
+  margin: 0em 2em;
   position: absolute;
   opacity: 0.7;
   border-radius: 50%;
@@ -465,7 +467,7 @@ figure span:nth-child(2) {
 .project__description h3 {
   color: white;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: sans-serif;
   font-weight: bold;
 }
@@ -547,7 +549,6 @@ figure span:nth-child(2) {
   .container {
     width: 100vw;
     margin-top: 50px;
-    padding: 10vh 0;
   }
   /* Typography */
   h1 {
